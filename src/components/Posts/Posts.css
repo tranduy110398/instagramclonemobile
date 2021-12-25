@@ -1,0 +1,80 @@
+.post-container{
+    width: 615px;
+    max-width: 100%;
+    height: 900px;
+    margin-top: 25px;
+}
+.post-header {
+    height: 60px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    display: flex;
+}
+.post-username {
+    min-width: 45px;
+    min-height: 45px;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.post-avatar {
+    margin-top: 13px;
+    margin-left: 15px;
+    height: 30px;
+    width: 30px;
+}
+.post-image{
+    height: 120%;
+    width: 100%;
+    margin-top: 5px;
+}
+.post-actions-container{
+    margin-left: 5px;
+}
+.post-actions{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    margin-left: 10px;
+}
+.post-likes{
+    font-weight: bold;
+    margin-left: 15px;
+}
+.post-user{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.post-comments{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.post-date{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-bottom: 20px;
+}
+.post-input-container{
+    border-top: 1px solid rgb(226, 226, 226);
+}
+.post-input{
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 0;
+    font-size: 14px;
+}
+.post-uploadicon {
+    margin-left: 270px;
+    max-width: 395%;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    margin-top: 15px;
+    display: inline-block;
+}
+.file-upload > input {
+    display: none;  
+    width: 100%;
+}

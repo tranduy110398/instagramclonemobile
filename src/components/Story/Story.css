@@ -1,0 +1,33 @@
+
+.story-container {
+    height: 120px;
+    text-align: center;
+    width: 615px;
+    max-width: 395%;
+    background-color: white;
+    border: 1px solid rgb(226, 226, 226);
+    margin-top: 35px;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.stories {
+   margin-left: 15px;
+   margin-top: 25px;
+   width: 60px;
+   margin: 25px 10px;
+}
+
+.story_avatar{
+    min-width: 55px;
+    min-height: 55px;   
+    border: 3px solid #DF3968;
+}
+
+.story_text{
+    overflow-x: hidden;
+    text-align: center;
+    max-width: 60px;
+    font-size: 12px;
+}
